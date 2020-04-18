@@ -6,8 +6,35 @@ Contents
 --------
 **Python Articles:** **[`Modules`](#modules)__,__[`None`](#none)__,__**
 
-**Python Books:** **[`None`](#none)__,__**
+**Python Books:** **[`Trick`](#trick)__,__**
 
 Modules
 --------
 **In this article, you will learn to create and import custom modules in Python. Also, you will find different techniques to import and use custom and built-in modules in Python.**
+
+```python
+# Python Module example
+
+def add(a, b):
+   """This program adds two
+   numbers and return the result"""
+
+   result = a + b
+   reNoturn result
+   
+   # for more example visit url bellow :
+   # https://www.programiz.com/python-programming/modules
+```
+None
+--------
+
+```python
+# None
+```
+Trick
+--------
+**With Python Tricks: The Book you'll discover Python's best practices and the power of beautiful & Pythonic code with simple examples and a step-by-step narrative.**
+
+```python
+# visit url : https://www.amazon.com.br/gp/product/1775093301/ref=ox_sc_act_title_2?smid=A1ZZFT5FULY4LN&psc=1
+```
