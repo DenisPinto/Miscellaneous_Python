@@ -4,7 +4,7 @@ Other Resources all internet
 
 Contents
 --------
-**Python Articles:** **[`Modules`](#modules)__,__[`None`](#none)__,__**
+**Python Articles:** **[`Modules`](#modules)__,__[`Exam`](#exam)__,__**
 
 **Python Books:** **[`Trick`](#trick)__,__**
 
@@ -25,11 +25,12 @@ def add(a, b):
    # for more example visit url bellow :
    # https://www.programiz.com/python-programming/modules
 ```
-None
+Exam
 --------
+**Website with resource for Certificate Python
 
 ```python
-# None
+# visit url : https://www.w3schools.com/python/python_exercises.asp
 ```
 Trick
 --------
