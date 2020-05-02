@@ -6,7 +6,7 @@ Contents
 --------
 **Python Articles:** **[`Modules`](#modules)__,__[`Exam`](#exam)__,__[`Comments`](#comments)__,__**
 
-**Py Tricks:** **[`Mergin`](#mergin)__,__*[`None`](#none)__,__**
+**Py Tricks:** **[`Mergin`](#mergin)__,__**
 
 Modules
 --------
@@ -39,10 +39,31 @@ Comments
 ```python
 # visit url : https://realpython.com/python-comments-guide/
 ```
-Trick
+Mergin
 --------
-**With Python Tricks: The Book you'll discover Python's best practices and the power of beautiful & Pythonic code with simple examples and a step-by-step narrative.**
+**Merging two dicts in Python 3.5+ with a single expression.**
 
 ```python
-# visit url : https://www.amazon.com.br/gp/product/1775093301/ref=ox_sc_act_title_2?smid=A1ZZFT5FULY4LN&psc=1
+# How to merge two dictionaries
+# in Python 3.5+
+
+>>> x = {'a': 1, 'b': 2}
+>>> y = {'b': 3, 'c': 4}
+
+>>> z = {**x, **y}
+
+>>> z
+{'c': 4, 'a': 1, 'b': 3}
+
+# In Python 2.x you could
+# use this:
+>>> z = dict(x, **y)
+>>> z
+{'a': 1, 'c': 4, 'b': 3}
+
+# In these examples, Python merges dictionary keys
+# in the order listed in the expression, overwriting 
+# duplicates from left to right.
+#
+# See: https://www.youtube.com/watch?v=Duexw08KaC8
 ```
