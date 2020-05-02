@@ -31,7 +31,6 @@ Exam
 
 ```python
 # visit url : https://www.w3schools.com/python/python_exercises.asp
-```
  url : https://www.amazon.com.br/gp/product/1775093301/ref=ox_sc_act_title_2?smid=A1ZZFT5FULY4LN&psc=1
 ```
 Comments
@@ -40,7 +39,6 @@ Comments
 
 ```python
 # visit url : https://realpython.com/python-comments-guide/
-```
 ```
 Trick
 --------
