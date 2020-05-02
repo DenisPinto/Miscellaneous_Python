@@ -4,7 +4,7 @@ Other Resources all internet
 
 Contents
 --------
-**Python Articles:** **[`Modules`](#modules)__,__[`Exam`](#exam)__,__**
+**Python Articles:** **[`Modules`](#modules)__,__[`Exam`](#exam)__,__[`Comments`](#comments)__,__**
 
 **Python Books:** **[`Trick`](#trick)__,__**
 
@@ -31,6 +31,20 @@ Exam
 
 ```python
 # visit url : https://www.w3schools.com/python/python_exercises.asp
+```
+Trick
+--------
+**With Python Tricks: The Book you'll discover Python's best practices and the power of beautiful & Pythonic code with simple examples and a step-by-step narrative.**
+
+```python
+# visit url : https://www.amazon.com.br/gp/product/1775093301/ref=ox_sc_act_title_2?smid=A1ZZFT5FULY4LN&psc=1
+```
+Comments
+--------
+**Website: Writing comments Python (Guide)
+
+```python
+# visit url : https://realpython.com/python-comments-guide/
 ```
 Trick
 --------
