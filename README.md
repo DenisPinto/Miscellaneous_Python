@@ -6,7 +6,7 @@ Contents
 --------
 **Python Articles:** **[`Modules`](#modules)__,__[`Exam`](#exam)__,__[`Comments`](#comments)__,__**
 
-**Py Tricks:** **[`Mergin`](#mergin)__,__**
+**Py Tricks:** **[`Mergin`](#mergin)__,__*[`None`](#none)__,__**
 
 Modules
 --------
