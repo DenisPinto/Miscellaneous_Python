@@ -6,7 +6,7 @@ Contents
 --------
 **Python Articles:** **[`Modules`](#modules)__,__[`Exam`](#exam)__,__[`Comments`](#comments)__,__**
 
-**Py Tricks:** **[`Mergin`](#mergin)__,__**
+**Py Tricks:** **[`Mergin`](#mergin)__,__[`Sort`](#sort)__,__**
 
 Modules
 --------
@@ -66,4 +66,23 @@ Mergin
 # duplicates from left to right.
 #
 # See: https://www.youtube.com/watch?v=Duexw08KaC8
+```
+Sort
+--------
+**How to sort a Python dict by value.**
+
+```python
+# How to sort a Python dict by value
+# (== get a representation sorted by value)
+
+>>> xs = {'a': 4, 'b': 3, 'c': 2, 'd': 1}
+
+>>> sorted(xs.items(), key=lambda x: x[1])
+[('d', 1), ('c', 2), ('b', 3), ('a', 4)]
+
+# Or:
+
+>>> import operator
+>>> sorted(xs.items(), key=operator.itemgetter(1))
+[('d', 1), ('c', 2), ('b', 3), ('a', 4)]
 ```
